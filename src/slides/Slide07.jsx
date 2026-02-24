@@ -34,25 +34,35 @@ export default function Slide07() {
           {/* Chart Area */}
           <div className="flex-1 bg-white border border-gray-100 rounded-[24px] shadow-[0_8px_30px_rgba(0,0,0,0.04)] p-10 flex flex-col">
             
-            <div className="flex items-end flex-1 gap-16 px-16 pb-8 border-b-2 border-gray-100">
+            <div className="flex items-end flex-1 gap-16 px-16 border-b-2 border-gray-100 min-h-[250px] pb-0">
               
               {/* Bar 1 */}
-              <div className="flex-1 flex flex-col items-center gap-4 group">
+              <div className="flex-1 flex flex-col items-center justify-end h-full gap-0 group">
                 <span className="text-4xl font-extrabold text-secondary opacity-40 mb-2">14%</span>
-                <div className="w-full bg-gray-100 rounded-t-[16px] h-[15%] transition-all duration-500 group-hover:bg-gray-200"></div>
-                <span className="text-lg font-extrabold text-secondary mt-2">Before<br/><span className="text-xs font-medium opacity-70">일반 텍스트 문서 제공 시</span></span>
+                <div className="w-full bg-gray-100 rounded-t-[16px] transition-all duration-500 group-hover:bg-gray-200" style={{ height: '15%' }}></div>
               </div>
 
               {/* Bar 2 */}
-              <div className="flex-1 flex flex-col items-center gap-4 group">
+              <div className="flex-1 flex flex-col items-center justify-end h-full gap-0 group">
                 <div className="bg-brand-blue/10 text-brand-blue px-3 py-1 rounded-full text-xs font-bold mb-2 animate-bounce">
                   +68%p 상승
                 </div>
                 <span className="text-6xl font-black text-brand-blue mb-2">82%</span>
-                <div className="w-full bg-brand-blue rounded-t-[16px] h-[85%] shadow-[0_0_20px_rgba(42,118,242,0.3)] transition-all duration-500"></div>
-                <span className="text-lg font-extrabold text-primary mt-2">After<br/><span className="text-xs font-medium text-secondary">bitelearn UX 적용 후</span></span>
+                <div className="w-full bg-brand-blue rounded-t-[16px] shadow-[0_0_20px_rgba(42,118,242,0.3)] transition-all duration-500" style={{ height: '85%' }}></div>
               </div>
 
+            </div>
+
+            {/* X-Axis Labels */}
+            <div className="flex gap-16 px-16 pt-6">
+              <div className="flex-1 text-center">
+                <span className="text-lg font-extrabold text-secondary">Before</span><br/>
+                <span className="text-xs font-medium opacity-70">일반 텍스트 문서 제공 시</span>
+              </div>
+              <div className="flex-1 text-center">
+                <span className="text-lg font-extrabold text-primary">After</span><br/>
+                <span className="text-xs font-medium text-secondary">bitelearn UX 적용 후</span>
+              </div>
             </div>
 
             <div className="mt-8">

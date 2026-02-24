@@ -14,10 +14,10 @@ export default function Slide08() {
           bitelearn <span className="text-brand-blue">Platform Expansion</span> Roadmap
         </h3>
 
-        <div className="flex w-full max-w-5xl justify-between items-center relative">
+        <div className="flex w-full max-w-5xl justify-between items-start relative">
           
-          {/* Connecting Line */}
-          <div className="absolute left-20 right-20 top-1/2 h-2 bg-gray-100 -translate-y-1/2 z-0 rounded-full overflow-hidden">
+          {/* Connecting Line (Hidden as requested) */}
+          <div className="hidden absolute left-20 right-20 top-[64px] h-2 bg-gray-100 -translate-y-1/2 z-0 rounded-full overflow-hidden">
             <div className="h-full bg-brand-blue w-1/3 opacity-30"></div>
           </div>
 
@@ -34,7 +34,7 @@ export default function Slide08() {
           </div>
 
           {/* Arrow */}
-          <div className="relative z-10 text-xl text-gray-300 font-bold -mt-10">❯❯</div>
+          <div className="relative z-10 mt-[48px] bg-canvas px-4"><span className="text-xl text-gray-300 font-bold">❯❯</span></div>
 
           {/* Module 2: Labor (Next) */}
           <div className="relative z-10 flex flex-col items-center w-64">
@@ -49,7 +49,7 @@ export default function Slide08() {
           </div>
 
           {/* Arrow */}
-          <div className="relative z-10 text-xl text-gray-300 font-bold -mt-10">❯❯</div>
+          <div className="relative z-10 mt-[48px] bg-canvas px-4"><span className="text-xl text-gray-300 font-bold">❯❯</span></div>
 
           {/* Module 3: Finance (Future) */}
           <div className="relative z-10 flex flex-col items-center w-64">

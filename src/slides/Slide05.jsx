@@ -50,10 +50,10 @@ export default function Slide05() {
               </div>
 
               {/* Tooltip */}
-              <div className="absolute top-1/2 -right-6 translate-x-full -translate-y-1/2 bg-white px-6 py-4 rounded-xl shadow-xl border border-gray-100 w-64 z-20">
-                <p className="text-sm font-extrabold text-accent-red mb-1">근저당권설정 발견!</p>
-                <p className="text-xs font-medium text-secondary leading-relaxed">집주인이 이 집을 담보로 빚을 지고 있습니다. 계약을 피하세요.</p>
-                <div className="w-3 h-3 bg-white border-l border-b border-gray-100 absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 transform"></div>
+              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 bg-white px-8 py-5 rounded-2xl shadow-2xl border border-gray-100 w-80 z-20">
+                <p className="text-base font-extrabold text-accent-red mb-1.5">근저당권설정 발견!</p>
+                <p className="text-sm font-medium text-secondary leading-relaxed">집주인이 이 집을 담보로 빚을 지고 있습니다. 계약을 피하세요.</p>
+                <div className="w-4 h-4 bg-white border-b border-r border-gray-100 absolute -bottom-2 left-1/2 -translate-x-1/2 rotate-45 transform"></div>
               </div>
             </div>
             
